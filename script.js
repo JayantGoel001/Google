@@ -1,5 +1,5 @@
 document.getElementById("query").addEventListener("keyup",function (event){
-    if (event.key==="13"){
+    if (event.code==="Enter"){
         search();
     }
 })
