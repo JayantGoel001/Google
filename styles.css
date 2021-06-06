@@ -52,6 +52,7 @@ img{
 .btn:hover{
     border: 1px solid #dadce0;
     padding: 10px 19px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 .icons{
     position: absolute;
