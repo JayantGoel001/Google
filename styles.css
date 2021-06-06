@@ -97,7 +97,7 @@ footer{
     background-color: rgba(204,204,204,0.35);
 }
 .bottom-bar{
-    padding: 13px 30px;
+    padding: 15px 30px;
     color: rgba(0,0,0,.54);
 }
 .references{
@@ -125,18 +125,30 @@ footer{
 }
 @media (max-width: 667px) {
     footer{
-        height: 15vh;
+        height: 25vh;
     }
     .references>div:nth-child(1){
-        display: block;
+        display: flex;
         width: 100%;
+        padding: 0 85px;
+        justify-content: space-around;
     }
     .references>div:nth-child(2){
-        display: block;
+        display: flex;
         width: 100%;
-        bottom: 15px;
+        bottom: 20px;
+        padding: 0 120px;
+        justify-content: space-around;
     }
     .language{
         display: block;
+    }
+}
+@media (max-width: 515px) {
+    .references>div:nth-child(1){
+        padding: 0 10px;
+    }
+    .references>div:nth-child(2){
+        padding: 0 90px;
     }
 }
