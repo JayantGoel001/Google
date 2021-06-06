@@ -92,11 +92,9 @@ footer{
     background-color: rgba(204,204,204,0.35);
 }
 .bottom-bar{
-    padding: 15px 30px;
-    font-size: 15px;
+    padding: 13px 30px;
     color: rgba(0,0,0,.54);
 }
-
 .references{
     display: flex;
     max-width: 100%;
@@ -112,8 +110,11 @@ footer{
 .references>div>a{
     font-size: 14px;
     color: rgba(0,0,0,.54);
-    padding: 10px;
+    padding: 15px 15px;
 }
 .references>a{
     color: rgba(0,0,0,.54);
+}
+.hr{
+    border-bottom: 1px solid #dadce0;
 }
