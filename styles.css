@@ -73,8 +73,12 @@ img{
     color: #222;
     padding-right: 5px;
 }
-p{
+p,div{
     font-size: 13px;
+}
+.language{
+    text-align: center;
+    display: flex;
 }
 a{
     color: #1a0dab;
@@ -98,7 +102,7 @@ footer{
 }
 .references{
     display: flex;
-    max-width: 100%;
+    width: 100%;
 }
 .references>div:nth-child(1){
     position: absolute;
@@ -118,4 +122,21 @@ footer{
 }
 .hr{
     border-bottom: 1px solid #dadce0;
+}
+@media (max-width: 667px) {
+    footer{
+        height: 15vh;
+    }
+    .references>div:nth-child(1){
+        display: block;
+        width: 100%;
+    }
+    .references>div:nth-child(2){
+        display: block;
+        width: 100%;
+        bottom: 15px;
+    }
+    .language{
+        display: block;
+    }
 }
