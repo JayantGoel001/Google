@@ -1,3 +1,8 @@
+document.getElementById("query").addEventListener("keyup",function (event){
+    if (event.key==="13"){
+        search();
+    }
+})
 function search(){
     let query = document.querySelector(".query").value;
     if (query) {
